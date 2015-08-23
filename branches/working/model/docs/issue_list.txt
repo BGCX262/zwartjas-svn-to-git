@@ -1,0 +1,116 @@
+##############################################################################################################
+
+ISSUE-LIST ZwartJas
+
+##############################################################################################################
+
+
+prio => 1 (laag, niet belangrijk) t/m 10 (hoogst, zeer belangrijk)
+
+
+--------------------------------------------------------------------------------------------------------------
+Issue 1 - OPGELOST - Melder: Jeroen Sen <jeroensen@planet.nl> - Datum: 2009-01-19 22:05
+--------------------------------------------------------------------------------------------------------------
+Use-case:	Overall
+Beschrijving: 	Rechttrekken GUI.
+		Hier en daar zitten er (minieme) verschillen in de gebruikte lettertype(n). Bijvoorbeeld bij het 
+		selecteren van spelers voor deelname aan het spel. Verder is het handiger om de knop "Voeg toe" in
+		Spelers toevoegen-GUI onder de speler fieldset te zetten.
+Status: 	Open
+Toegewezen:	Jeroen
+Prio: 		8
+
+
+
+--------------------------------------------------------------------------------------------------------------
+Issue 2 - OPGELOST - Melder: Jeroen Sen <jeroensen@planet.nl> - Datum: 2009-01-19 22:14
+--------------------------------------------------------------------------------------------------------------
+Use-case:	Spel spelen
+Beschrijving: 	Kaart van bank niet tonen voordat de spelronde voor alle spelers behalve de bank er op zit.
+		Wanneer er een nieuwe spelronde gestart word, word direct de kaart van de bank getoond. Dit leidt
+		tot een (ongwenst) voordeel voor de spelers. De afbeelding KaartAchterkant.png is toegevoegd om
+		dit probleem te ontlopen. Deze zou dus getoond moeten worden totdat alle actieve spelers - de bank
+		de spelronde gespeeld hebben.
+Status: 	Open
+Toegewezen:	Erwin / Bas / Nico?
+Prio: 		10
+
+
+
+--------------------------------------------------------------------------------------------------------------
+Issue 3 - OPGELOST - Melder: Jeroen Sen <jeroensen@planet.nl> - Datum: 2009-01-19 22:25
+--------------------------------------------------------------------------------------------------------------
+Use-case:	Spel spelen
+Beschrijving: 	Wanneer er meerdere spelers aangemaakt en geselecteerd worden, word er op het cnavas van Spel spelen
+		maar 1 speler als actief getoond. De overige spelers zijn niet ziochtbaar.
+Status: 	Opgelost
+Toegewezen:	Erwin
+Prio: 		10
+
+
+
+--------------------------------------------------------------------------------------------------------------
+Issue 4 - BUG - Melder: Jeroen Sen <jeroensen@planet.nl> - Datum: 2009-01-19 22:30
+--------------------------------------------------------------------------------------------------------------
+Use-case:	Speler selecteren
+Beschrijving: 	Wanneer er wel spelers ingevoerd worden, maar er word geen speler geselecteerd om een spelronde te 
+		spelen maar er word wel op de button "Klaar" in de speler toevoegen GUI gedrukt word er een exceptie
+		gegooid. Hier zou een nette foutmelding voor gemaakt moeten worden.
+Status: 	Open
+Toegewezen:	
+Prio: 		9
+
+
+
+--------------------------------------------------------------------------------------------------------------
+Issue 5 - NICE2HAVE - Melder: Jeroen Sen <jeroensen@planet.nl> - Datum: 2009-01-20 22:12
+--------------------------------------------------------------------------------------------------------------
+Use-case:	Uitlijning kaarten
+Beschrijving: 	Bij de bank word de eerste kaart netjes in het midden uitgelijnd, bij de spelers word deze geheel links 
+		uitgelijnd. In mijn ogen, zou het heel mooi zijn als de kaarten voor iedereen in het midden van elk 
+		eigen veld uitgelijnd worden. Wanneer er een tweede kaart bij komt worden deze naast elkaar weergegeven, 
+		wanneer er meerdere kaarten getoond moeten worden (meer dan 2) zullen de kaarten overelkaar heen gelegd worden.
+Status: 	Open
+Toegewezen:	
+Prio: 		1
+
+
+
+--------------------------------------------------------------------------------------------------------------
+Issue 6 - NICE2HAVE - Melder: Jeroen Sen <jeroensen@planet.nl> - Datum: 2009-01-20 22:34
+--------------------------------------------------------------------------------------------------------------
+Use-case:	Achterkant kaarten
+Beschrijving: 	Wellicht is het leuk om meerdere achterkanten van kaarten aan te maken en deze random te wijzigen. Wel uniform per 
+		spel (dus uniform per spelronde), 1 afbeelding tonen.
+Status: 	Open
+Toegewezen:	
+Prio: 		1
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+Issue 7 - BUG -  - Melder: Bas  - Datum: 2009-01-21 22:34
+--------------------------------------------------------------------------------------------------------------
+Use-case:	Inzet
+Beschrijving: 	Eerste keer geen inzet of foute inzet invullen dan krijg je vervolgens een FloatingDecimal NumberFormatException op at domein.Spelronde.inzetten(Spelronde.java:183)
+		
+Status: 	Open
+Toegewezen:	
+Prio: 		3
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+Issue 8 - NICE2HAVE - Melder: Bas <> - Datum: 2009-01-21 22:34
+--------------------------------------------------------------------------------------------------------------
+Use-case:	MainGUI
+Beschrijving: 	Wellicht is het handig om  min en max inzetwaarde op speelveld te plaatsen! Als reminder tijdens het spel.
+Status: 	Open
+Toegewezen:	
+Prio: 		5
+
+
+
+
